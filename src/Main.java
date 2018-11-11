@@ -48,6 +48,8 @@ public class Main {
 		printMessageWelcome();
 		//Calling method start() 
 		start();
+		// Calling method printExitMessage()
+		printExitMessage();
 	}
 	
 	// Printing the welcome message.
@@ -192,5 +194,11 @@ public class Main {
 			}
 		}
 		System.out.println("Total matches in all tournaments over the average goal value: " + overAverageCounter);
+	}
+	
+	// Printing the exit message.
+	private static void printExitMessage() {
+		System.out.println("\n-------------------------------------------------------\n\n"
+				+ "Thank you for playing the the Soccer Tournaments generator program!");
 	}
 }
