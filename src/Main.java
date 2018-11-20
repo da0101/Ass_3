@@ -1,3 +1,4 @@
+
 // -------------------------------------------------------
 // Assignment_3 Question_1
 // Written by: Danil Ulmashev 27033389
@@ -198,7 +199,7 @@ public class Main {
 	
 	// Printing the exit message.
 	private static void printExitMessage() {
-		System.out.println("\n-------------------------------------------------------\n\n"
+		System.out.println("\n-------------------------------------------------------\n"
 				+ "Thank you for playing the the Soccer Tournaments generator program!");
 	}
 }
